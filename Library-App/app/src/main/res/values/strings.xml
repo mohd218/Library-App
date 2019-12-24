@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Books Availability System</string>
+    <string name="desc">Description</string>
+
+    <string name="it">IT</string>
+    <string name="cse">CSE</string>
+    <string name="civil">CIVIL</string>
+    <string name="mech">MECH</string>
+    <string name="eee">EEE</string>
+    <string name="ece">ECE</string>
+    <string name="_1st_year">1st Year</string>
+    <string name="logout">Logout</string>
+	<string name="btn_send_token">Send Token</string>
+	<string name="btn_send_tokens">Send Tokens</string>
+	<string name="btn_send_topic">Send Topic</string>
+	<string name="btn_show_token">Show Token</string>
+	<string name="btn_subscribe_news">Take</string>
+	<string name="btn_unsubscribe_news">Return</string>
+	<string name="notification_channel_id">default</string>
+	<string name="result">Token will be Generated;</string>
+	<string name="subscribed">You can take the book</string>
+	<string name="unsubscribed">You can return the book</string>
+
+</resources>

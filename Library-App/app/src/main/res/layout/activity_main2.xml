@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/main_background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/boogaloo"
+        android:text="WELCOME"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bks"
+        android:onClick="Books"
+        android:text="Books"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/user"
+        android:layout_width="120dp"
+        android:layout_height="90dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:onClick="Checkout"
+        android:text="Generate Token"
+        android:layout_marginTop="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bks"
+        android:layout_width="120dp"
+        android:layout_height="90dp"/>
+
+    <Button
+        android:onClick="report"
+        android:layout_marginTop="25sp"
+        android:text="Report an Issue"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/checkout"
+        android:id="@+id/report"
+        android:layout_width="120dp"
+        android:layout_height="90dp"/>
+
+    <Button
+        android:onClick="Logout"
+        android:layout_marginTop="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/report"
+        android:text="@string/logout"
+        android:id="@+id/logouot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

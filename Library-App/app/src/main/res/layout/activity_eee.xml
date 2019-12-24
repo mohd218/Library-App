@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".eee">
+
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:textColor="@color/antique_white"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:id="@+id/books"
+        android:text="Available Books"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:layout_marginTop="20sp"
+        android:textColor="@color/antique_white"
+        android:layout_below="@id/books"
+        android:cacheColorHint="@color/colorPrimary"
+        android:id="@+id/eee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

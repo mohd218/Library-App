@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/boogaloo</item>
+        <item>@font/clicker_script</item>
+        <item>@font/creepster</item>
+        <item>@font/days_one</item>
+        <item>@font/jacques_francois_shadow</item>
+        <item>@font/spinnaker</item>
+        <item>@font/wallpoet</item>
+    </array>
+</resources>
